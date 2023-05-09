@@ -3,11 +3,6 @@
   publish = "build"
   
 [[redirects]]
-  from = "/"
-  to = "/"
-  status = 200
-  
-[[redirects]]
-  from = "/"
+  from = "/benjamin-peterhans"
   to = "/"
   status = 200
