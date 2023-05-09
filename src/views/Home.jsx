@@ -1,9 +1,14 @@
 import React from 'react';
+import { useTheme } from '../hooks/useTheme';
+import { useHandleThemeChange } from '../hooks/useHandleThemeChange';
 
 export default function Home() {
+    const [currentTheme, handleThemeChange] = useHandleThemeChange();
+
     return (
-        <section className="bg-[#fff5f8] select-none">
-            <p>h</p>
+        <section data-theme={currentTheme}>
+            <button className='btn btn-primary' onClick={handleThemeChange}>cupcake</button>
+            <button className='btn btn-primary' onClick={handleThemeChange}>hello</button>
         </section>
     );
 }
