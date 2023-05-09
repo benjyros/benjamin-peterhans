@@ -6,8 +6,12 @@ export default function Home() {
 
     return (
         <section data-theme={currentTheme}>
-            <button className='btn btn-primary' onClick={handleThemeChange}>cupcake</button>
-            <button className='btn btn-primary' onClick={handleThemeChange}>hello</button>
+            <button className='btn btn-primary' onClick={() => handleThemeChange('cupcake')}>
+                cupcake
+            </button>
+            <button className='btn btn-primary' onClick={() => handleThemeChange('hello')}>
+                hello
+            </button>
         </section>
     );
 }

@@ -15,8 +15,7 @@ export function useHandleThemeChange() {
     return () => darkModeQuery.removeEventListener('change', handleChange);
   }, []);
 
-  const handleThemeChange = () => {
-    const newTheme = theme === 'cupcake' ? 'hello' : 'cupcake';
+  const handleThemeChange = (newTheme) => {
     setTheme(newTheme);
   };
 
