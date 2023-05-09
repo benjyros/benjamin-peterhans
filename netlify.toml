@@ -3,6 +3,9 @@
   publish = "build"
   
 [[redirects]]
-  from = "/benjamin-peterhans"
-  to = "/"
-  status = 200
+  from = "/benjamin-peterhans/*"
+  to = "/:splat"
+  status = 301
+
+[build.environment]
+  BASE_URL = "https://benjyros.com/"
