@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTheme } from '../hooks/useTheme';
 import { useHandleThemeChange } from '../hooks/useHandleThemeChange';
 
 export default function Home() {
