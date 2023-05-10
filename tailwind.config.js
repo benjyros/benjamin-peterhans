@@ -27,23 +27,23 @@ module.exports = {
           "error": "#F3729D",
         },
         light: {
-          "primary": "#ff6600",
+          "primary": "#ffffff",
 
-          "secondary": "#f418b6",
+          "secondary": "#f5f3f2",
 
-          "accent": "#7bf2b8",
+          "accent": "#73737375",
 
-          "neutral": "#312541",
+          "neutral": "#846855",
 
-          "base-100": "#53395B",
+          "base-100": "#dbd8d6",
 
-          "info": "#A9CBEA",
+          "info": "#3ABFF8",
 
-          "success": "#1FA88D",
+          "success": "#36D399",
 
-          "warning": "#FCB827",
+          "warning": "#FBBD23",
 
-          "error": "#F3729D",
+          "error": "#F87272",
         },
         cupcake: {
           "primary": "#694229",
