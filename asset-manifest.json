@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/benjamin-peterhans/static/css/main.18ac80a3.css",
+    "main.css": "/benjamin-peterhans/static/css/main.859f86a0.css",
     "main.js": "/benjamin-peterhans/static/js/main.89995843.js",
     "index.html": "/benjamin-peterhans/index.html",
-    "main.18ac80a3.css.map": "/benjamin-peterhans/static/css/main.18ac80a3.css.map",
+    "main.859f86a0.css.map": "/benjamin-peterhans/static/css/main.859f86a0.css.map",
     "main.89995843.js.map": "/benjamin-peterhans/static/js/main.89995843.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ac80a3.css",
+    "static/css/main.859f86a0.css",
     "static/js/main.89995843.js"
   ]
 }
